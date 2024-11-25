@@ -19,10 +19,11 @@ WIP
     - Retrieve list of indie app ids
     - Retrieve Steam store pages for indie games (JSONs)
     - Retrieve reviews for indie games (JSONs)
-- Convert JSONs to a more usable database format
+- Ingest JSONs to parquet files
 - EDA
-- Transform data
-- Model
+- Use network analysis to cluster/label reviewers and games
+- Extract more labels from topic analysis of game reviews
+- Build recommender based on labels
 
 ### Organization
 
@@ -37,8 +38,9 @@ WIP
 * `notebooks`
     - Contains notebooks for
         - Data download
-        - Data cleaning
+        - Data ingest/cleaning
         - EDA
+        - Clustering
         - Modeling
 
 * `docs`
